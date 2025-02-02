@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up / Login - INTERworld</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <header class="banner">
+        <div class="banner-content">
+            <h1>INTERworld - Sign Up / Login</h1>
+        </div>
+    </header>
+
+    <!-- Форма реєстрації -->
+    <main>
+        <section class="auth-form">
+            <h2>Create Account</h2>
+            <form id="signup-form">
+                <input type="text" id="username" placeholder="Enter your username" required>
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <input type="password" id="password" placeholder="Enter your password" required>
+                <button type="submit" class="cta-button">Sign Up</button>
+            </form>
+        </section>
+
+        <section class="login-form">
+            <h2>Already have an account?</h2>
+            <form id="login-form">
+                <input type="email" id="login-email" placeholder="Enter your email" required>
+                <input type="password" id="login-password" placeholder="Enter your password" required>
+                <button type="submit" class="cta-button">Login</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 INTERworld. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+/* Загальні стилі */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Банер */
+.banner {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    padding: 60px 20px;
+    text-align: center;
+    animation: slideIn 1s ease-out;
+}
+
+.banner-content h1 {
+    font-size: 3.5em;
+    color: #fff;
+}
+
+.banner-content p {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+/* Анімація банера */
+@keyframes slideIn {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Вступ */
+.intro {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Переваги */
+.features {
+    padding: 40px 20px;
+    background-color: #eee;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.features ul {
+    list-style-type: none;
+}
+
+.features li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Кнопка реєстрації */
+.cta {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #ff7e5f;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #feb47b;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Мобільна адаптація */
+@media screen and (max-width: 768px) {
+    .banner-content h1 {
+        font-size: 2.5em;
+    }
+
+    .cta-button {
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+}
+/* Загальні стилі */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Банер */
+.banner {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    padding: 60px 20px;
+    text-align: center;
+    animation: slideIn 1s ease-out;
+}
+
+.banner-content h1 {
+    font-size: 3.5em;
+    color: #fff;
+}
+
+/* Анімація банера */
+@keyframes slideIn {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Форма */
+.auth-form, .login-form {
+    padding: 40px 20px;
+    background-color: #fff;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form h2, .login-form h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.auth-form input, .login-form input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.cta-button {
+    background-color: #ff7e5f;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #feb47b;
+}
+
+/* Мобільна адаптація */
+@media screen and (max-width: 768px) {
+    .banner-content h1 {
+        font-size: 2.5em;
+    }
+
+    .cta-button {
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+}
